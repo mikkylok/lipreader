@@ -1,5 +1,6 @@
 # Lip Reader
 This is the branch for deployment code. Any push will automatically trigger Github Action CICD to containerize the repo, push the image to ECR, and deploy it on EC2.
+For development code, please refer to dev branch.
 
 ## Directory
 
@@ -87,7 +88,7 @@ Python >= 3.9
 
 `$ docker rmi <image_name>:<tag> `
 
-## Deployment steps
+## Demo Deployment steps
 1. Apply for an IAM user with `Opensearchfullaccess` and `ECRfullaccess`
 
 
